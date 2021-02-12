@@ -9,4 +9,4 @@ spec:
       version: ">=1.14.2-alpha"
   test:
     enable: false
-  values:
+  values: {}
