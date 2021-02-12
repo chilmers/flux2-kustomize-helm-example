@@ -6,3 +6,4 @@ resources:
 patchesStrategicMerge:
   - podinfo-values.yaml
   - kong-values.yaml
+  - kong-users.yaml
