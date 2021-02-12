@@ -1,0 +1,15 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: kong
+  namespace: open-services
+spec:
+  chart:
+    spec:
+      version: ">=1.14.2-alpha"
+  test:
+    enable: false
+  values:
+    ingress:
+      hosts:
+        - podinfo.staging
