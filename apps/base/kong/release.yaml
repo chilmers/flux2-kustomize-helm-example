@@ -24,4 +24,4 @@ spec:
     postgresql:
       enabled: false
     env:
-      database: off
+      database: "off"
